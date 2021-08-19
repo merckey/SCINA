@@ -12,10 +12,10 @@
 #@' Usage: Rscript EM_interface.R example_expmat_test.csv example_signatures.csv 100 10 0.99 1 1 1 test.RData 1
 
 
-setwd('$HOME/SCINA_test')
+#setwd('$HOME/SCINA_test')
 # A test folder on Ze Zhang's system. Contains all input .csv files and scripts.
-source('EM_model.R')
-source('EM_functions.R')
+#source('EM_model.R')
+#source('EM_functions.R')
 suppressMessages(library('gplots'))
 #Initiate input parameters
 args=commandArgs(trailingOnly = T)
